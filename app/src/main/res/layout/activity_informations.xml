@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAA0AC"
+    android:gravity="left"
+    android:orientation="vertical"
+    tools:context=".Informations">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="the Information is : "
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"></TextView>
+
+    <TextView
+        android:id="@+id/result_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name is : "
+        android:textAllCaps="true"
+        android:textColor="#4B1711"
+        android:textSize="24sp"
+        android:layout_marginBottom="30dp"></TextView>
+
+    <TextView
+        android:id="@+id/result_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email is : "
+        android:textAllCaps="true"
+        android:textColor="#4B1711"
+        android:textSize="24sp"
+        android:layout_marginBottom="30dp"></TextView>
+
+    <TextView
+        android:id="@+id/result_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone number is : "
+        android:textAllCaps="true"
+        android:textColor="#4B1711"
+        android:textSize="24sp"
+        android:layout_marginBottom="30dp"></TextView>
+
+    <TextView
+        android:id="@+id/result_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="age is : "
+        android:textAllCaps="true"
+        android:textColor="#4B1711"
+        android:textSize="24sp"
+        android:layout_marginBottom="30dp"></TextView>
+
+    <TextView
+        android:id="@+id/result_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="address is : "
+        android:textAllCaps="true"
+        android:textColor="#4B1711"
+        android:textSize="24sp"
+        android:layout_marginBottom="30dp"></TextView>
+
+    <TextView
+        android:id="@+id/result_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gender is : "
+        android:textAllCaps="true"
+        android:textColor="#4B1711"
+        android:textSize="24sp"
+        android:layout_marginBottom="30dp"></TextView>
+
+</LinearLayout>
